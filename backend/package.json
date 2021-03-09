@@ -2,8 +2,8 @@
   "name": "toy-store-back",
   "version": "2.0.0",
   "private": true,
-  "author": "Wes Bos",
-  "license": "MIT",
+  "author": "Piotr Myszkiewicz",
+  "license": "PM",
   "scripts": {
     "dev": "keystone-next",
     "seed-data": "keystone-next --seed-data"
