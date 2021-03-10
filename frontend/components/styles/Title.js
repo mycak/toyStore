@@ -6,6 +6,7 @@ const Title = styled.h3`
   margin-top: -2rem;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
   a {
+    color: #555555;
     -webkit-border-border-radius: 0.5rem;
     -moz-border-border-radius: 0.5rem;
     border-radius: 0.25em;
@@ -15,7 +16,6 @@ const Title = styled.h3`
     line-height: 1.3;
     font-size: 3rem;
     text-align: center;
-    color: white;
     box-decoration-break: clone;
     padding: 0 0.5em;
   }

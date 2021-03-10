@@ -7,11 +7,12 @@ const Logo = styled.h1`
   position: relative;
   z-index: 2;
   background: var(--peach);
-  border-radius: 0.5em;
+  border-radius: 0.25em;
+  transform: rotate(2deg);
   a {
-    color: white;
+    color: var(--black);
     text-decoration: none;
-    padding: 0.5rem 1em;
+    padding: 0.5rem 6em;
   }
 `;
 
@@ -20,6 +21,7 @@ const HeaderStyles = styled.header`
   flex-direction: column;
   align-items: center;
   .bar {
+    background-color: #fcf8e8;
     min-width: 100%;
     border-bottom: 10px solid var(--black, black);
     display: flex;

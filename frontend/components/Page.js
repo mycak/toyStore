@@ -4,15 +4,15 @@ import Header from './Header';
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
-    font-family: 'radnika_next';
-    src: url('/static/radnikanext-medium-webfont.woff2') format('woff2');
+    font-family: 'Akaya_Telivigala';
+    src: url('/static/AkayaTelivigala-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   html {
-    --peach: #ff9217;
+    --peach: #cff6cf;
     --red: #ff0000;
-    --black: #393939;
+    --black: #555555;
     --grey: #3A3A3A;
     --gray: var(--grey);
     --lightGrey: #e1e1e1;
@@ -27,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: inherit;
   }
   body {
-    font-family: 'radnika_next', --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Akaya_Telivigala', --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
@@ -41,7 +41,7 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: underline;
   }
   button {
-    font-family: 'radnika_next', --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    font-family: 'Akaya_Telivigala', --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
   }
 `;
 
