@@ -3,15 +3,15 @@ import styled from 'styled-components';
 import Nav from './Nav';
 
 const Logo = styled.h1`
-  font-size: 4rem;
+  font-size: 5rem;
   position: relative;
   z-index: 2;
-  background: peachpuff;
-  border-radius: 1rem;
+  background: var(--peach);
+  border-radius: 0.5em;
   a {
     color: white;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1em;
   }
 `;
 
