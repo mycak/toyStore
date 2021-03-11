@@ -35,6 +35,7 @@ const ProductStyles = styled.div`
   }
 `;
 
+// eslint-disable-next-line react/prop-types
 const SingleProduct = ({ id }) => {
   const { data, loading, error } = useQuery(SINGLE_PRODUCT_QUERY, {
     variables: {
