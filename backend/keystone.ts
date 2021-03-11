@@ -10,8 +10,7 @@ import { Product } from './schemas/Products';
 import { ProductImage } from './schemas/ProductImage';
 import { insertSeedData } from './seed-data';
 
-const databaseURL =
-  process.env.DATABASE_URL || 'mongodb://localhost/keystone-toy-store';
+const databaseURL = process.env.DATABASE_URL;
 
 const sessionConfig = {
   maxAge: 60 * 60 * 24 * 360,
@@ -50,6 +49,7 @@ export default withAuth(
       ProductImage,
     }),
     ui: {
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
       isAccessAllowed: ({ session }) => !!session?.data,
     },
     session: withItemData(statelessSessions(sessionConfig), {
