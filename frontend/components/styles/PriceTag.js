@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 const PriceTag = styled.span`
   background: var(--red);
-  transform: rotate(3deg);
+  transform: rotate(-3deg);
+  border-radius: 0.25em;
   color: white;
   font-weight: 600;
   padding: 5px;
