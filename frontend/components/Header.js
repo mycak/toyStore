@@ -12,7 +12,7 @@ const Logo = styled.h1`
   a {
     color: var(--black);
     text-decoration: none;
-    padding: 0.5rem 6em;
+    padding: 0.5rem 1em;
   }
 `;
 
